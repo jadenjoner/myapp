@@ -1,1 +1,0 @@
-/home/jaden/Projects/simplecomponents/js/sc.js
