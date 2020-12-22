@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="shortcut icon" href="https://civilresolutionbc.ca/wp-content/uploads/2020/03/covid-19.png">
+    <title>MyApp - Test App</title>
+  </head>
+  <body>
+
+    <header>
+      <div class="left">
+        <i class="logo" onclick="window.location.reload()">coronavirus</i>
+        <input type="text" placeholder="Search">
+      </div>
+      <div class="right">
+        <i class="options" title="options" onclick="page('page/options.xml')">settings</i>
+        <i class="notifications" title="notifications">notifications</i>
+        <i class="account" title="account" onclick="page('page/account.xml')">account_circle</i>
+      </div>
+      <div class="clear"></div>
+    </header>
+
+    <main><div id="content"></div></main>
+
+    <aside></aside>
+
+    <!-- external -->
+
+    <script src="js/fun.js" charset="utf-8"></script>
+    <script src="js/formgen.js" charset="utf-8"></script>
+    <script src="js/sc.js" charset="utf-8"></script>
+
+    <!-- main -->
+
+    <script src="js/data.js" charset="utf-8"></script>
+    <script src="js/functions.js" charset="utf-8"></script>
+    <script src="js/dragDrop.js" charset="utf-8"></script>
+    <script src="js/main.js" charset="utf-8"></script>
+  </body>
+</html>
